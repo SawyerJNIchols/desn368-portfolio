@@ -95,7 +95,7 @@ main {
 
 .image-reveal {
   height: 80vh;
-  background-image: url("/images/photo-1748195904721-8fcf448c9565.avif");
+  background-image: url("./images/photo-1748195904721-8fcf448c9565.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

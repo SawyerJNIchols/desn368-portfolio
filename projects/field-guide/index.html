@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Monster Hunter Wilds: Beginners Field Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300..800&family=Playfair+Display+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open section menu"
+        aria-expanded="false"
+        aria-controls="navbar"
+      >
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+      </button>
+      <h1 class="site-title">
+        Monster Hunter
+        <span class="accent">Wilds</span>
+      </h1>
+      <p class="site-subtitle">Beginners Field Guide</p>
+    </header>
+
+    <div class="layout">
+      <nav class="sidebar" id="navbar" aria-label="Guide navigation">
+        <header>
+          <h2 class="sidebar-heading">
+            <span class="heading-desktop">
+              Monster Hunter Wilds Field Guide
+            </span>
+            <span class="heading-mobile">Section Links</span>
+          </h2>
+        </header>
+        <ol class="sidebar-links">
+          <li>
+            <a class="nav-link" href="#The_Forbidden_Lands">
+              The Forbidden Lands
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Regions_and_Inclemencies">
+              Regions and Inclemencies
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#The_Monster_Bestiary">
+              The Monster Bestiary
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Weapons_and_Focus_Mode">
+              Weapons and Focus Mode
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Endgame_and_Updates">
+              Endgame and Updates
+            </a>
+          </li>
+        </ol>
+      </nav>
+
+      <main id="main-doc" class="content">
+        <!-- Section 1 -->
+        <section id="The_Forbidden_Lands" class="main-section">
+          <header>
+            <h2 class="section-heading">The Forbidden Lands</h2>
+          </header>
+          <p>
+            Monster Hunter Wilds is Capcom's action RPG about hunting huge
+            monsters in a living ecosystem. You play a hunter who travels
+            through the Forbidden Lands. Each region has its own terrain,
+            wildlife, and dangers.
+          </p>
+          <p>
+            The world changes through three phases. Plenty is bright and full of
+            resources. Fallow is dim, with fewer materials and more fighting
+            between monsters. Inclemency comes between the two and brings a
+            dramatic weather event. Rarer monster variants can appear during it.
+          </p>
+          <p>
+            Your Seikret is a mount you can call from almost anywhere. It
+            carries you across the map, so you spend less time walking and more
+            time tracking prey. The Seikret comes from a settlement in the
+            Windward Plains.
+          </p>
+
+          <pre
+            class="highlight"
+          ><code>Plenty → Inclemency → Fallow → Inclemency → repeat</code></pre>
+
+          <ul>
+            <li>Plenty: bright and full of resources</li>
+            <li>
+              Fallow: dim, with fewer materials and more fighting between
+              monsters
+            </li>
+            <li>
+              Inclemency: a dramatic weather event with rarer monster variants
+            </li>
+          </ul>
+
+          <figure class="figure">
+            <img
+              src="/assets/node-8.png"
+              width="853"
+              height="434"
+              alt="The Windward Plains in Plenty and Fallow phases, side by side"
+            />
+          </figure>
+
+          <div class="placed-image">
+            <img src="/assets/bg-image-3.png" alt="" />
+          </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section id="Regions_and_Inclemencies" class="main-section">
+          <header>
+            <h2 class="section-heading">Regions and Inclemencies</h2>
+          </header>
+          <p>
+            The campaign takes you through five regions. The Windward Plains is
+            a mix of deserts, grasslands, and rock formations. Its Inclemency is
+            the Sandtide, a thundering sandstorm. Following the river leads you
+            to the Scarlet Forest, where the Downpour floods the land.
+          </p>
+          <p>
+            Next come the Oilwell Basin and the Iceshard Cliffs. In the Oilwell
+            Basin, oil wells up from the ground. Its Firespring ignites the oil
+            pools. Some areas are hot enough to drain health, so you need a Cool
+            Drink. The Iceshard Cliffs are the opposite. Cold lowers your
+            maximum stamina, so you need a Hot Drink. The Frostwinds blizzard
+            cuts visibility.
+          </p>
+          <p>
+            The last region is the Ruins of Wyveria. A Wyverian civilization
+            once lived there, and now only ruins and monsters remain. Its states
+            are Plenty, Fallow, and Wyvern's Stirring. It is also home to some
+            of the deadliest creatures in the campaign.
+          </p>
+
+          <div class="highlight">
+            <table class="region-table">
+              <thead>
+                <tr>
+                  <th scope="col">Region</th>
+                  <th scope="col">Inclemency</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Plains</td>
+                  <td>Sandtide</td>
+                </tr>
+                <tr>
+                  <td>Forest</td>
+                  <td>Downpour</td>
+                </tr>
+                <tr>
+                  <td>Oilwell</td>
+                  <td>Firespring</td>
+                </tr>
+                <tr>
+                  <td>Iceshard</td>
+                  <td>Frostwinds</td>
+                </tr>
+                <tr>
+                  <td>Wyveria</td>
+                  <td>Wyvern's Stirring</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <pre class="highlight"><code><strong>Gear check</strong>
+Oilwell Basin:   Cool Drink
+Iceshard Cliffs: Hot Drink</code></pre>
+
+          <ul>
+            <li>Windward Plains: deserts, grasslands, and rock formations</li>
+            <li>Scarlet Forest: reached by following the river</li>
+            <li>Oilwell Basin: oil wells up from the ground</li>
+            <li>Iceshard Cliffs: cold lowers your maximum stamina</li>
+            <li>
+              Ruins of Wyveria: all that remains of a Wyverian civilization
+            </li>
+          </ul>
+
+          <figure class="figure">
+            <img
+              src="/assets/regions-image-9.png"
+              width="853"
+              height="434"
+              alt="Map of the Forbidden Lands showing the five regions"
+            />
+          </figure>
+
+          <div class="placed-image">
+            <img src="/assets/bg-image-3.png" alt="" />
+          </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section id="The_Monster_Bestiary" class="main-section">
+          <header>
+            <h2 class="section-heading">The Monster Bestiary</h2>
+          </header>
+          <p>
+            The game has 35 new monsters and 16 returning ones. Each region has
+            an apex predator that rules over it. These include Arkveld, Rey Dau,
+            Uth Duna, Nu Udra, and Jin Dahaad. Returning favorites include
+            Rathian, Congalala, Gypceros, and Yian Kut-Ku.
+          </p>
+          <p>
+            Not every creature can be hunted. Wudwuds, Mernos, Seikrets, and the
+            Aptonoths at some base camps are off limits. The Ruins of Wyveria
+            add Constructs such as Guardian Arkveld and Guardian Rathalos. Their
+            elements and weaknesses differ from the standard versions.
+          </p>
+          <p>
+            Later updates added more monsters. Mizutsune came first, followed by
+            Lagiacrus and Seregios, and then Gogmazios. Title Update 3 added
+            Omega Planetes through the Final Fantasy XIV collaboration.
+          </p>
+
+          <pre
+            class="highlight"
+          ><code><strong>Hunt note: Ruins of Wyveria</strong>
+Guardian Arkveld, Dragon element
+Weakness: Dragon</code></pre>
+
+          <ul>
+            <li>
+              Apex predators: Arkveld, Rey Dau, Uth Duna, Nu Udra, Jin Dahaad
+            </li>
+            <li>
+              Returning favorites: Rathian, Congalala, Gypceros, Yian Kut-Ku
+            </li>
+            <li>Not huntable: Wudwuds, Mernos, Seikrets, and some Aptonoths</li>
+          </ul>
+
+          <figure class="figure">
+            <img
+              src="/assets/bestiary-image-10.png"
+              width="853"
+              height="434"
+              alt="Key art of Rey Dau"
+            />
+          </figure>
+
+          <div class="placed-image">
+            <img src="/assets/bg-image-3.png" alt="" />
+          </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section id="Weapons_and_Focus_Mode" class="main-section">
+          <header>
+            <h2 class="section-heading">Weapons and Focus Mode</h2>
+          </header>
+          <p>
+            The game has 14 weapon types, and every one is available from the
+            start. They range from the Great Sword to the Insect Glaive, so you
+            can play slow and heavy or fast and agile. Try several before you
+            settle on one.
+          </p>
+          <p>
+            Focus Mode is a key new mechanic. It lets you aim and steer your
+            attacks. Great Sword players can charge a swing and use focus to
+            track a monster that moves around them. Insect Glaive players
+            describe the Focus Strike as very satisfying. You can set Focus Mode
+            to a toggle in the settings, which many players find more
+            comfortable.
+          </p>
+          <p>
+            Pair your weapon with a build. Armor, charms, and decorations add
+            skills that suit your play style. A good build matches the weapon to
+            the monster's weakness. Check each monster's element before you
+            leave camp.
+          </p>
+
+          <pre class="highlight"><code><strong>Loadout check</strong>
+Weapon: _____
+Element: _____
+Armor skill: _____
+Items: Potion, Whetstone, Drink</code></pre>
+
+          <ul>
+            <li>
+              Great Sword: charge a swing and use focus to track a monster
+            </li>
+            <li>
+              Insect Glaive: the Focus Strike players call very satisfying
+            </li>
+            <li>Focus Mode: can be set to a toggle in the settings</li>
+          </ul>
+
+          <figure class="figure">
+            <img
+              src="/assets/weapons-image-11.png"
+              width="853"
+              height="434"
+              alt="Hunters wielding all 14 weapon types"
+            />
+          </figure>
+
+          <div class="placed-image">
+            <img src="/assets/bg-image-3.png" alt="" />
+          </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section id="Endgame_and_Updates" class="main-section">
+          <header>
+            <h2 class="section-heading">Endgame and Updates</h2>
+          </header>
+          <p>
+            After the story, hunting continues with Tempered and Arch-Tempered
+            monsters. Title Update 1 added Mizutsune, a Tempered Mizutsune, and
+            a high-rank Zoh Shia. Later updates added 8-star and 9-star hunts.
+            Title Update 4 brought Gogmazios, Gogma Artian weapons, and an
+            Arch-tempered Jin Dahaad. Arch-tempered Arkveld followed in February
+            2026 as the last arch-tempered monster on that roster.
+          </p>
+          <p>
+            Capcom's update page lists Ver. 1.042.00.03, released October 27,
+            2026. Monster Hunter's official account also teases the Wilds
+            evolving with Ascendance in 2027. Check Capcom's update page for
+            current details.
+          </p>
+          <p>
+            Some community members call Omega Planetes the toughest fight so
+            far. They say it is best tackled as a group. Treat that as player
+            opinion, not an official ranking.
+          </p>
+
+          <pre class="highlight"><code><strong>Endgame loop</strong>
+Hunt → Gather parts → Craft → Upgrade → Hunt harder</code></pre>
+
+          <ul>
+            <li>Tempered and Arch-Tempered monsters after the story</li>
+            <li>8-star and 9-star hunts added in later updates</li>
+            <li>Gogma Artian weapons from Title Update 4</li>
+          </ul>
+
+          <figure class="figure">
+            <img
+              src="/assets/endgame-image-12.png"
+              width="853"
+              height="434"
+              alt="Collage of endgame monsters"
+            />
+          </figure>
+
+          <div class="placed-image">
+            <img src="/assets/bg-image-3.png" alt="" />
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <p>© 2026 Sawyer Nichols | Interactive Field Guide</p>
+      <p>
+        Game information from Capcom's official
+        <em>Monster Hunter Wilds</em>
+        site. Additional details from the Monster Hunter Wiki, Icy Veins, Game8,
+        and GameSpot.
+        <em>Monster Hunter Wilds</em>
+        is a trademark of Capcom. This guide is a fan project.
+      </p>
+      <div class="footer-buttons">
+        <a
+          class="button"
+          href="https://settled-dawn-aardvark.codepen.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Portfolio
+        </a>
+        <a class="button button-outline" href="case-study.html">
+          Read Case Study
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var toggle = document.querySelector(".menu-toggle");
+        var nav = document.getElementById("navbar");
+        if (!toggle || !nav) return;
+
+        function setOpen(open) {
+          nav.classList.toggle("is-open", open);
+          toggle.classList.toggle("is-open", open);
+          toggle.setAttribute("aria-expanded", String(open));
+          toggle.setAttribute(
+            "aria-label",
+            open ? "Close section menu" : "Open section menu"
+          );
+        }
+
+        toggle.addEventListener("click", function () {
+          setOpen(!nav.classList.contains("is-open"));
+        });
+
+        nav.addEventListener("click", function (e) {
+          if (e.target.closest("a")) setOpen(false);
+        });
+
+        document.addEventListener("click", function (e) {
+          if (!nav.contains(e.target) && !toggle.contains(e.target)) {
+            setOpen(false);
+          }
+        });
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape" && nav.classList.contains("is-open")) {
+            setOpen(false);
+            toggle.focus();
+          }
+        });
+
+        window
+          .matchMedia("(min-width: 641px)")
+          .addEventListener("change", function (e) {
+            if (e.matches) setOpen(false);
+          });
+      })();
+    </script>
+  </body>
+</html>
