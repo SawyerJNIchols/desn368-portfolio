@@ -1,0 +1,146 @@
+body {
+  font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: #2a2b22;
+  font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  color: #3d5473;
+  font-family: "STIX Two Text", bold;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  color: #333333;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Center Contents, About, weeks, Toolkit, and Resources */
+nav,
+main {
+  text-align: center;
+}
+
+/* Remove list indentation and center bullets with the text */
+nav ul,
+main ul,
+main ol {
+  padding-inline-start: 0;
+  list-style-position: inside;
+}
+
+/* Keep highlights short and center each highlighted item */
+.done {
+  background-color: #c8dfea;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  text-align: center;
+}
+
+li {
+  list-style-type: square;
+}
+
+main > ol > li {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+main > ol > li > ul {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+  background-color: white;
+}
+
+/* Prevents a gap between image and text*/
+main {
+  padding-bottom: 24px;
+}
+
+.image-reveal {
+  height: 80vh;
+  background-image: url("./images/photo-1748195904721-8fcf448c9565.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Leave room for the fixed title bar */
+body {
+  padding-top: 130px;
+}
+
+#toolkit,
+#resources,
+footer {
+  text-align: center;
+}
+
+#toolkit ul,
+#resources ul {
+  padding-inline-start: 0;
+  list-style-position: inside;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+  padding: 16px 20px;
+  text-align: center;
+  background-color: rgb(255 255 255 / 75%);
+}
+
+.top-bar h1 {
+  margin: 0 0 8px;
+  font-size: clamp(22px, 4vw, 32px);
+}
+
+.top-bar p {
+  margin: 0;
+}
+
+/* Keep section links from landing behind the bar */
+html {
+  scroll-padding-top: 130px;
+}
