@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  min-width: 280px;
+  color: #fff;
+  background: #252525;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+
+.hero {
+  position: relative;
+  min-height: 61vw;
+  color: #fff;
+}
+
+.hero__portrait {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  filter: grayscale(1);
+}
+
+.hero__title {
+  padding: 49.5vw 24px 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Italiana", "Bodoni MT", "Times New Roman", serif;
+  font-size: clamp(64px, 8.9vw, 170px);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.005em;
+}
+
+.hero__dates {
+  margin-top: 10px;
+  font-size: clamp(18px, 1.65vw, 28px);
+  font-weight: 300;
+  line-height: 1.35;
+}
+
+.biography {
+  position: relative;
+  z-index: 1;
+  padding: 3.3vw max(24px, calc((100% - 630px) / 2)) 225px;
+  background: linear-gradient(
+    to bottom,
+    rgba(217, 217, 217, 0) 0%,
+    #aaaaaa 19%,
+    #9d9d9d 46%,
+    #252525 100%
+  );
+}
+
+.introduction {
+  margin-bottom: 44px;
+}
+
+h2 {
+  margin-bottom: 28px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.highlights ul {
+  padding: 0;
+  list-style: none;
+}
+
+.highlights li::before {
+  content: "• ";
+}
+
+.highlights li + li {
+  margin-top: 22px;
+}
+
+.timeline {
+  margin-top: 30px;
+}
+
+
+.timeline__list {
+  width: min(400px, calc(100% - 60px));
+  margin-top: 42px;
+  margin-left: 60px;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline__event + .timeline__event {
+  margin-top: 26px;
+}
+
+.timeline__event h3 {
+  margin-bottom: 19px;
+  font-family: "Italiana", "Bodoni MT", "Times New Roman", serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.timeline__event p + p {
+  margin-top: 20px;
+}
+
