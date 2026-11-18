@@ -95,7 +95,7 @@ main {
 
 .image-reveal {
   height: 80vh;
-  background-image: url("images/Jaguar.jpg");
+  background-image: url("./images/Jaguar.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
